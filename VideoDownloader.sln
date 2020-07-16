@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoDownloader", "UI\Video
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libyoutube-dl", "libyoutube-dl\Library\libyoutube-dl.csproj", "{6CC945AD-7863-4ACB-81D5-99D9067B1286}"
 EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "libyoutube-dl documentation", "libyoutube-dl\libyoutube-dl documentation\libyoutube-dl documentation.shfbproj", "{865A21B5-7824-4558-87C7-E5E66838049B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6CC945AD-7863-4ACB-81D5-99D9067B1286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CC945AD-7863-4ACB-81D5-99D9067B1286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CC945AD-7863-4ACB-81D5-99D9067B1286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865A21B5-7824-4558-87C7-E5E66838049B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865A21B5-7824-4558-87C7-E5E66838049B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865A21B5-7824-4558-87C7-E5E66838049B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865A21B5-7824-4558-87C7-E5E66838049B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
