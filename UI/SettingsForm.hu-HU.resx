@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ConvertCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 22</value>
+  </data>
+  <data name="ConvertCheck.Text" xml:space="preserve">
+    <value>Átalakítás</value>
+  </data>
+  <data name="ThumbnailCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 22</value>
+  </data>
+  <data name="ThumbnailCheck.Text" xml:space="preserve">
+    <value>Bélyegképek beágyazása a hangfájlba borítóként.</value>
+  </data>
+  <data name="KeepOrigCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 22</value>
+  </data>
+  <data name="KeepOrigCheck.Text" xml:space="preserve">
+    <value>Az eredeti fájlok megtartása az átalakítás után.</value>
+  </data>
+  <data name="QualityWorst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 18</value>
+  </data>
+  <data name="QualityWorst.Text" xml:space="preserve">
+    <value>Legrosszabb</value>
+  </data>
+  <data name="QualityRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 18</value>
+  </data>
+  <data name="QualityRight.Text" xml:space="preserve">
+    <value>Legjobb</value>
+  </data>
+  <data name="QualityTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 18</value>
+  </data>
+  <data name="QualityTitle.Text" xml:space="preserve">
+    <value>Minőség:</value>
+  </data>
+  <data name="VideoCheck.Text" xml:space="preserve">
+    <value>Videó</value>
+  </data>
+  <data name="AudioCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 22</value>
+  </data>
+  <data name="AudioCheck.Text" xml:space="preserve">
+    <value>Csak hang</value>
+  </data>
+  <data name="FormatPage.Text" xml:space="preserve">
+    <value>Formátum átalakítás</value>
+  </data>
+  <data name="TempHintLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 18</value>
+  </data>
+  <data name="TempHintLabel1.Text" xml:space="preserve">
+    <value>A fájlnév sablon részletes leírása.</value>
+  </data>
+  <data name="TemplateGroup.Text" xml:space="preserve">
+    <value>Fájlnév sablon</value>
+  </data>
+  <data name="DownloaderGroup.Text" xml:space="preserve">
+    <value>Youtube-dl.exe helye</value>
+  </data>
+  <data name="FfmpegGgroup.Text" xml:space="preserve">
+    <value>FFmpeg mappa</value>
+  </data>
+  <data name="OutputGroup.Text" xml:space="preserve">
+    <value>Kimeneti mappa</value>
+  </data>
+  <data name="OutputPage.Text" xml:space="preserve">
+    <value>Mappák és Fájlnév</value>
+  </data>
+  <data name="ProxyCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="ProxyCheck.Text" xml:space="preserve">
+    <value>Proxy használata</value>
+  </data>
+  <data name="SpeedLimitCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 22</value>
+  </data>
+  <data name="SpeedLimitCheck.Text" xml:space="preserve">
+    <value>Letöltési sebesség korlátozása</value>
+  </data>
+  <data name="TimeoutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 18</value>
+  </data>
+  <data name="TimeoutLabel.Text" xml:space="preserve">
+    <value>Hálózati kapcsolat időtúllépési korlátja:</value>
+  </data>
+  <data name="ProxyExamples.Text" xml:space="preserve">
+    <value>Példák:
+socks5://127.0.0.1:1080/
+http://server.proxy.com:8080/
+https://192.168.0.1:8080/"</value>
+  </data>
+  <data name="ProxyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 18</value>
+  </data>
+  <data name="ProxyLabel.Text" xml:space="preserve">
+    <value>Proxy szerver:</value>
+  </data>
+  <data name="NetworkPage.Text" xml:space="preserve">
+    <value>Hálózat</value>
+  </data>
+  <data name="CredCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="CredCheck.Text" xml:space="preserve">
+    <value>Hitelesítő adatok használata</value>
+  </data>
+  <data name="VideoPassCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 22</value>
+  </data>
+  <data name="VideoPassCheck.Text" xml:space="preserve">
+    <value>Videó jelszó (vimeo, smotri, youku)</value>
+  </data>
+  <data name="TwoFactorCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="TwoFactorCheck.Text" xml:space="preserve">
+    <value>Kétlépcsős azonosítás</value>
+  </data>
+  <data name="PassLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 18</value>
+  </data>
+  <data name="PassLabel.Text" xml:space="preserve">
+    <value>Jelszó:</value>
+  </data>
+  <data name="UserLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 18</value>
+  </data>
+  <data name="UserLabel.Text" xml:space="preserve">
+    <value>Felhasználónév:</value>
+  </data>
+  <data name="LoginPage.Text" xml:space="preserve">
+    <value>Hitelesítő adatok</value>
+  </data>
+  <data name="VDownloadThreadLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 18</value>
+  </data>
+  <data name="VDownloadThreadLabel.Text" xml:space="preserve">
+    <value>Letöltésre használt szálak:</value>
+  </data>
+  <data name="VFormatThreadLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 18</value>
+  </data>
+  <data name="VFormatThreadLabel.Text" xml:space="preserve">
+    <value>Videó formátumok lekérésére használt szálak:</value>
+  </data>
+  <data name="VInfoThreadLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 18</value>
+  </data>
+  <data name="VInfoThreadLabel.Text" xml:space="preserve">
+    <value>Videó információk lekérésére használt szálak:</value>
+  </data>
+  <data name="LanguageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 18</value>
+  </data>
+  <data name="LanguageLabel.Text" xml:space="preserve">
+    <value>Nyelv:</value>
+  </data>
+  <data name="DefSettingsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 264</value>
+  </data>
+  <data name="DefSettingsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 34</value>
+  </data>
+  <data name="DefSettingsButton.Text" xml:space="preserve">
+    <value>Alapértelmezett beállítások visszaállítása</value>
+  </data>
+  <data name="UpdateButton.Text" xml:space="preserve">
+    <value>A youtube-dl frissítése!</value>
+  </data>
+  <data name="MiscPage.Text" xml:space="preserve">
+    <value>Egyebek</value>
+  </data>
+  <data name="CloseButton.Text" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+</root>

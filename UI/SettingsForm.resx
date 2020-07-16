@@ -1,0 +1,1704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConvertCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ConvertCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 6</value>
+  </data>
+  <data name="ConvertCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 22</value>
+  </data>
+  <data name="ConvertCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ConvertCheck.Text" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="&gt;&gt;ConvertCheck.Name" xml:space="preserve">
+    <value>ConvertCheck</value>
+  </data>
+  <data name="&gt;&gt;ConvertCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConvertCheck.Parent" xml:space="preserve">
+    <value>FormatPage</value>
+  </data>
+  <data name="&gt;&gt;ConvertCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="QualityTitleV.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QualityTitleV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 126</value>
+  </data>
+  <data name="QualityTitleV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 18</value>
+  </data>
+  <data name="QualityTitleV.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="QualityTitleV.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;QualityTitleV.Name" xml:space="preserve">
+    <value>QualityTitleV</value>
+  </data>
+  <data name="&gt;&gt;QualityTitleV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QualityTitleV.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;QualityTitleV.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ThumbnailCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ThumbnailCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 249</value>
+  </data>
+  <data name="ThumbnailCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 22</value>
+  </data>
+  <data name="ThumbnailCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ThumbnailCheck.Text" xml:space="preserve">
+    <value>Embed thumbnail to audio file as cover art</value>
+  </data>
+  <data name="&gt;&gt;ThumbnailCheck.Name" xml:space="preserve">
+    <value>ThumbnailCheck</value>
+  </data>
+  <data name="&gt;&gt;ThumbnailCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ThumbnailCheck.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;ThumbnailCheck.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="KeepOrigCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="KeepOrigCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 221</value>
+  </data>
+  <data name="KeepOrigCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="KeepOrigCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="KeepOrigCheck.Text" xml:space="preserve">
+    <value>Keep original files after conversion</value>
+  </data>
+  <data name="&gt;&gt;KeepOrigCheck.Name" xml:space="preserve">
+    <value>KeepOrigCheck</value>
+  </data>
+  <data name="&gt;&gt;KeepOrigCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KeepOrigCheck.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;KeepOrigCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="QualitySlider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 160</value>
+  </data>
+  <data name="QualitySlider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 45</value>
+  </data>
+  <data name="QualitySlider.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;QualitySlider.Name" xml:space="preserve">
+    <value>QualitySlider</value>
+  </data>
+  <data name="&gt;&gt;QualitySlider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QualitySlider.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;QualitySlider.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="QualityWorst.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QualityWorst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 166</value>
+  </data>
+  <data name="QualityWorst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 18</value>
+  </data>
+  <data name="QualityWorst.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="QualityWorst.Text" xml:space="preserve">
+    <value>Worst</value>
+  </data>
+  <data name="&gt;&gt;QualityWorst.Name" xml:space="preserve">
+    <value>QualityWorst</value>
+  </data>
+  <data name="&gt;&gt;QualityWorst.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QualityWorst.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;QualityWorst.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="QualityRight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QualityRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 166</value>
+  </data>
+  <data name="QualityRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 18</value>
+  </data>
+  <data name="QualityRight.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="QualityRight.Text" xml:space="preserve">
+    <value>Best</value>
+  </data>
+  <data name="&gt;&gt;QualityRight.Name" xml:space="preserve">
+    <value>QualityRight</value>
+  </data>
+  <data name="&gt;&gt;QualityRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QualityRight.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;QualityRight.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="QualityTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QualityTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 126</value>
+  </data>
+  <data name="QualityTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 18</value>
+  </data>
+  <data name="QualityTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="QualityTitle.Text" xml:space="preserve">
+    <value>Quality:</value>
+  </data>
+  <data name="&gt;&gt;QualityTitle.Name" xml:space="preserve">
+    <value>QualityTitle</value>
+  </data>
+  <data name="&gt;&gt;QualityTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QualityTitle.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;QualityTitle.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FormatBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 71</value>
+  </data>
+  <data name="FormatBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 26</value>
+  </data>
+  <data name="FormatBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;FormatBox.Name" xml:space="preserve">
+    <value>FormatBox</value>
+  </data>
+  <data name="&gt;&gt;FormatBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FormatBox.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;FormatBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="VideoCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VideoCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 101</value>
+  </data>
+  <data name="VideoCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="VideoCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="VideoCheck.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="&gt;&gt;VideoCheck.Name" xml:space="preserve">
+    <value>VideoCheck</value>
+  </data>
+  <data name="&gt;&gt;VideoCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VideoCheck.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;VideoCheck.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="AudioCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AudioCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 48</value>
+  </data>
+  <data name="AudioCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="AudioCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AudioCheck.Text" xml:space="preserve">
+    <value>Audio only</value>
+  </data>
+  <data name="&gt;&gt;AudioCheck.Name" xml:space="preserve">
+    <value>AudioCheck</value>
+  </data>
+  <data name="&gt;&gt;AudioCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AudioCheck.Parent" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;AudioCheck.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ConvertGroup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ConvertGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="ConvertGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 292</value>
+  </data>
+  <data name="ConvertGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ConvertGroup.Name" xml:space="preserve">
+    <value>ConvertGroup</value>
+  </data>
+  <data name="&gt;&gt;ConvertGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConvertGroup.Parent" xml:space="preserve">
+    <value>FormatPage</value>
+  </data>
+  <data name="&gt;&gt;ConvertGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FormatPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormatPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="FormatPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>676, 317</value>
+  </data>
+  <data name="FormatPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FormatPage.Text" xml:space="preserve">
+    <value>Convert format</value>
+  </data>
+  <data name="&gt;&gt;FormatPage.Name" xml:space="preserve">
+    <value>FormatPage</value>
+  </data>
+  <data name="&gt;&gt;FormatPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FormatPage.Parent" xml:space="preserve">
+    <value>TabPages</value>
+  </data>
+  <data name="&gt;&gt;FormatPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TempHintLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TempHintLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
+  </data>
+  <data name="TempHintLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 18</value>
+  </data>
+  <data name="TempHintLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TempHintLabel1.Text" xml:space="preserve">
+    <value>A detailed description of the filename template.</value>
+  </data>
+  <data name="&gt;&gt;TempHintLabel1.Name" xml:space="preserve">
+    <value>TempHintLabel1</value>
+  </data>
+  <data name="&gt;&gt;TempHintLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TempHintLabel1.Parent" xml:space="preserve">
+    <value>TemplateGroup</value>
+  </data>
+  <data name="&gt;&gt;TempHintLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FilenameTemplateBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="FilenameTemplateBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>648, 26</value>
+  </data>
+  <data name="FilenameTemplateBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;FilenameTemplateBox.Name" xml:space="preserve">
+    <value>FilenameTemplateBox</value>
+  </data>
+  <data name="&gt;&gt;FilenameTemplateBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FilenameTemplateBox.Parent" xml:space="preserve">
+    <value>TemplateGroup</value>
+  </data>
+  <data name="&gt;&gt;FilenameTemplateBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TemplateGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 225</value>
+  </data>
+  <data name="TemplateGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 86</value>
+  </data>
+  <data name="TemplateGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TemplateGroup.Text" xml:space="preserve">
+    <value>File name template</value>
+  </data>
+  <data name="&gt;&gt;TemplateGroup.Name" xml:space="preserve">
+    <value>TemplateGroup</value>
+  </data>
+  <data name="&gt;&gt;TemplateGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemplateGroup.Parent" xml:space="preserve">
+    <value>OutputPage</value>
+  </data>
+  <data name="&gt;&gt;TemplateGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DownloaderBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 32</value>
+  </data>
+  <data name="DownloaderBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 26</value>
+  </data>
+  <data name="DownloaderBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DownloaderBox.Name" xml:space="preserve">
+    <value>DownloaderBox</value>
+  </data>
+  <data name="&gt;&gt;DownloaderBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownloaderBox.Parent" xml:space="preserve">
+    <value>DownloaderGroup</value>
+  </data>
+  <data name="&gt;&gt;DownloaderBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DownloaderButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="DownloaderButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="DownloaderButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DownloaderButton.Name" xml:space="preserve">
+    <value>DownloaderButton</value>
+  </data>
+  <data name="&gt;&gt;DownloaderButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownloaderButton.Parent" xml:space="preserve">
+    <value>DownloaderGroup</value>
+  </data>
+  <data name="&gt;&gt;DownloaderButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DownloaderGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 155</value>
+  </data>
+  <data name="DownloaderGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 70</value>
+  </data>
+  <data name="DownloaderGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DownloaderGroup.Text" xml:space="preserve">
+    <value>Youtube-dl location</value>
+  </data>
+  <data name="&gt;&gt;DownloaderGroup.Name" xml:space="preserve">
+    <value>DownloaderGroup</value>
+  </data>
+  <data name="&gt;&gt;DownloaderGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownloaderGroup.Parent" xml:space="preserve">
+    <value>OutputPage</value>
+  </data>
+  <data name="&gt;&gt;DownloaderGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FfmpegBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 25</value>
+  </data>
+  <data name="FfmpegBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 26</value>
+  </data>
+  <data name="FfmpegBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;FfmpegBox.Name" xml:space="preserve">
+    <value>FfmpegBox</value>
+  </data>
+  <data name="&gt;&gt;FfmpegBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FfmpegBox.Parent" xml:space="preserve">
+    <value>FfmpegGgroup</value>
+  </data>
+  <data name="&gt;&gt;FfmpegBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FfmpegButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="FfmpegButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="FfmpegButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FfmpegButton.Name" xml:space="preserve">
+    <value>FfmpegButton</value>
+  </data>
+  <data name="&gt;&gt;FfmpegButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FfmpegButton.Parent" xml:space="preserve">
+    <value>FfmpegGgroup</value>
+  </data>
+  <data name="&gt;&gt;FfmpegButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FfmpegGgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 80</value>
+  </data>
+  <data name="FfmpegGgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 70</value>
+  </data>
+  <data name="FfmpegGgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="FfmpegGgroup.Text" xml:space="preserve">
+    <value>FFmpeg location</value>
+  </data>
+  <data name="&gt;&gt;FfmpegGgroup.Name" xml:space="preserve">
+    <value>FfmpegGgroup</value>
+  </data>
+  <data name="&gt;&gt;FfmpegGgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FfmpegGgroup.Parent" xml:space="preserve">
+    <value>OutputPage</value>
+  </data>
+  <data name="&gt;&gt;FfmpegGgroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OutputBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 25</value>
+  </data>
+  <data name="OutputBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 26</value>
+  </data>
+  <data name="OutputBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OutputBox.Name" xml:space="preserve">
+    <value>OutputBox</value>
+  </data>
+  <data name="&gt;&gt;OutputBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputBox.Parent" xml:space="preserve">
+    <value>OutputGroup</value>
+  </data>
+  <data name="&gt;&gt;OutputBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OutputButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="OutputButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="OutputButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OutputButton.Name" xml:space="preserve">
+    <value>OutputButton</value>
+  </data>
+  <data name="&gt;&gt;OutputButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputButton.Parent" xml:space="preserve">
+    <value>OutputGroup</value>
+  </data>
+  <data name="&gt;&gt;OutputButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="OutputGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="OutputGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 70</value>
+  </data>
+  <data name="OutputGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OutputGroup.Text" xml:space="preserve">
+    <value>Output folder</value>
+  </data>
+  <data name="&gt;&gt;OutputGroup.Name" xml:space="preserve">
+    <value>OutputGroup</value>
+  </data>
+  <data name="&gt;&gt;OutputGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputGroup.Parent" xml:space="preserve">
+    <value>OutputPage</value>
+  </data>
+  <data name="&gt;&gt;OutputGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="OutputPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="OutputPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="OutputPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>676, 317</value>
+  </data>
+  <data name="OutputPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="OutputPage.Text" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="&gt;&gt;OutputPage.Name" xml:space="preserve">
+    <value>OutputPage</value>
+  </data>
+  <data name="&gt;&gt;OutputPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputPage.Parent" xml:space="preserve">
+    <value>TabPages</value>
+  </data>
+  <data name="&gt;&gt;OutputPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ProxyCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProxyCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 6</value>
+  </data>
+  <data name="ProxyCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 22</value>
+  </data>
+  <data name="ProxyCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ProxyCheck.Text" xml:space="preserve">
+    <value>Use proxy</value>
+  </data>
+  <data name="&gt;&gt;ProxyCheck.Name" xml:space="preserve">
+    <value>ProxyCheck</value>
+  </data>
+  <data name="&gt;&gt;ProxyCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProxyCheck.Parent" xml:space="preserve">
+    <value>NetworkPage</value>
+  </data>
+  <data name="&gt;&gt;ProxyCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LimitUnitBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LimitUnitBox.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LimitUnitBox.Items1" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="LimitUnitBox.Items2" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="LimitUnitBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 259</value>
+  </data>
+  <data name="LimitUnitBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 26</value>
+  </data>
+  <data name="LimitUnitBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LimitUnitBox.Name" xml:space="preserve">
+    <value>LimitUnitBox</value>
+  </data>
+  <data name="&gt;&gt;LimitUnitBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LimitUnitBox.Parent" xml:space="preserve">
+    <value>NetworkPage</value>
+  </data>
+  <data name="&gt;&gt;LimitUnitBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SpeedLimitBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SpeedLimitBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 259</value>
+  </data>
+  <data name="SpeedLimitBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 26</value>
+  </data>
+  <data name="SpeedLimitBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;SpeedLimitBox.Name" xml:space="preserve">
+    <value>SpeedLimitBox</value>
+  </data>
+  <data name="&gt;&gt;SpeedLimitBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SpeedLimitBox.Parent" xml:space="preserve">
+    <value>NetworkPage</value>
+  </data>
+  <data name="&gt;&gt;SpeedLimitBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SpeedLimitCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SpeedLimitCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 260</value>
+  </data>
+  <data name="SpeedLimitCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="SpeedLimitCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SpeedLimitCheck.Text" xml:space="preserve">
+    <value>Limit download speed</value>
+  </data>
+  <data name="&gt;&gt;SpeedLimitCheck.Name" xml:space="preserve">
+    <value>SpeedLimitCheck</value>
+  </data>
+  <data name="&gt;&gt;SpeedLimitCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SpeedLimitCheck.Parent" xml:space="preserve">
+    <value>NetworkPage</value>
+  </data>
+  <data name="&gt;&gt;SpeedLimitCheck.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TimeoutBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 213</value>
+  </data>
+  <data name="TimeoutBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 26</value>
+  </data>
+  <data name="TimeoutBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TimeoutBox.Name" xml:space="preserve">
+    <value>TimeoutBox</value>
+  </data>
+  <data name="&gt;&gt;TimeoutBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimeoutBox.Parent" xml:space="preserve">
+    <value>NetworkPage</value>
+  </data>
+  <data name="&gt;&gt;TimeoutBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TimeoutLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TimeoutLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 215</value>
+  </data>
+  <data name="TimeoutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 18</value>
+  </data>
+  <data name="TimeoutLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TimeoutLabel.Text" xml:space="preserve">
+    <value>Network timeout</value>
+  </data>
+  <data name="&gt;&gt;TimeoutLabel.Name" xml:space="preserve">
+    <value>TimeoutLabel</value>
+  </data>
+  <data name="&gt;&gt;TimeoutLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimeoutLabel.Parent" xml:space="preserve">
+    <value>NetworkPage</value>
+  </data>
+  <data name="&gt;&gt;TimeoutLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ProxyExamples.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProxyExamples.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 83</value>
+  </data>
+  <data name="ProxyExamples.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 72</value>
+  </data>
+  <data name="ProxyExamples.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ProxyExamples.Text" xml:space="preserve">
+    <value>Examples:
+socks5://127.0.0.1:1080/
+http://server.proxy.com:8080/
+https://192.168.0.1:8080/</value>
+  </data>
+  <data name="&gt;&gt;ProxyExamples.Name" xml:space="preserve">
+    <value>ProxyExamples</value>
+  </data>
+  <data name="&gt;&gt;ProxyExamples.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProxyExamples.Parent" xml:space="preserve">
+    <value>ProxyGroup</value>
+  </data>
+  <data name="&gt;&gt;ProxyExamples.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ProxyBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 44</value>
+  </data>
+  <data name="ProxyBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 26</value>
+  </data>
+  <data name="ProxyBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ProxyBox.Name" xml:space="preserve">
+    <value>ProxyBox</value>
+  </data>
+  <data name="&gt;&gt;ProxyBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProxyBox.Parent" xml:space="preserve">
+    <value>ProxyGroup</value>
+  </data>
+  <data name="&gt;&gt;ProxyBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ProxyLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProxyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 47</value>
+  </data>
+  <data name="ProxyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 18</value>
+  </data>
+  <data name="ProxyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ProxyLabel.Text" xml:space="preserve">
+    <value>Proxy server:</value>
+  </data>
+  <data name="&gt;&gt;ProxyLabel.Name" xml:space="preserve">
+    <value>ProxyLabel</value>
+  </data>
+  <data name="&gt;&gt;ProxyLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProxyLabel.Parent" xml:space="preserve">
+    <value>ProxyGroup</value>
+  </data>
+  <data name="&gt;&gt;ProxyLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ProxyGroup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ProxyGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="ProxyGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 183</value>
+  </data>
+  <data name="ProxyGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ProxyGroup.Name" xml:space="preserve">
+    <value>ProxyGroup</value>
+  </data>
+  <data name="&gt;&gt;ProxyGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProxyGroup.Parent" xml:space="preserve">
+    <value>NetworkPage</value>
+  </data>
+  <data name="&gt;&gt;ProxyGroup.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NetworkPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="NetworkPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="NetworkPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>676, 317</value>
+  </data>
+  <data name="NetworkPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NetworkPage.Text" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="&gt;&gt;NetworkPage.Name" xml:space="preserve">
+    <value>NetworkPage</value>
+  </data>
+  <data name="&gt;&gt;NetworkPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetworkPage.Parent" xml:space="preserve">
+    <value>TabPages</value>
+  </data>
+  <data name="&gt;&gt;NetworkPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CredCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CredCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 6</value>
+  </data>
+  <data name="CredCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="CredCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CredCheck.Text" xml:space="preserve">
+    <value>Use credentials</value>
+  </data>
+  <data name="&gt;&gt;CredCheck.Name" xml:space="preserve">
+    <value>CredCheck</value>
+  </data>
+  <data name="&gt;&gt;CredCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CredCheck.Parent" xml:space="preserve">
+    <value>LoginPage</value>
+  </data>
+  <data name="&gt;&gt;CredCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="VideoPassBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="VideoPassBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 263</value>
+  </data>
+  <data name="VideoPassBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 26</value>
+  </data>
+  <data name="VideoPassBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;VideoPassBox.Name" xml:space="preserve">
+    <value>VideoPassBox</value>
+  </data>
+  <data name="&gt;&gt;VideoPassBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VideoPassBox.Parent" xml:space="preserve">
+    <value>LoginPage</value>
+  </data>
+  <data name="&gt;&gt;VideoPassBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="VideoPassCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VideoPassCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 235</value>
+  </data>
+  <data name="VideoPassCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 22</value>
+  </data>
+  <data name="VideoPassCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="VideoPassCheck.Text" xml:space="preserve">
+    <value>Video password (vimeo, smotri, youku)</value>
+  </data>
+  <data name="&gt;&gt;VideoPassCheck.Name" xml:space="preserve">
+    <value>VideoPassCheck</value>
+  </data>
+  <data name="&gt;&gt;VideoPassCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VideoPassCheck.Parent" xml:space="preserve">
+    <value>LoginPage</value>
+  </data>
+  <data name="&gt;&gt;VideoPassCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TwoFactorCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TwoFactorCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 127</value>
+  </data>
+  <data name="TwoFactorCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="TwoFactorCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="TwoFactorCheck.Text" xml:space="preserve">
+    <value>Two factor check</value>
+  </data>
+  <data name="&gt;&gt;TwoFactorCheck.Name" xml:space="preserve">
+    <value>TwoFactorCheck</value>
+  </data>
+  <data name="&gt;&gt;TwoFactorCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TwoFactorCheck.Parent" xml:space="preserve">
+    <value>CredGroup</value>
+  </data>
+  <data name="&gt;&gt;TwoFactorCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TwoFactorBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TwoFactorBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 155</value>
+  </data>
+  <data name="TwoFactorBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>590, 26</value>
+  </data>
+  <data name="TwoFactorBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TwoFactorBox.Name" xml:space="preserve">
+    <value>TwoFactorBox</value>
+  </data>
+  <data name="&gt;&gt;TwoFactorBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TwoFactorBox.Parent" xml:space="preserve">
+    <value>CredGroup</value>
+  </data>
+  <data name="&gt;&gt;TwoFactorBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PassBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 74</value>
+  </data>
+  <data name="PassBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="PassBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 26</value>
+  </data>
+  <data name="PassBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;PassBox.Name" xml:space="preserve">
+    <value>PassBox</value>
+  </data>
+  <data name="&gt;&gt;PassBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PassBox.Parent" xml:space="preserve">
+    <value>CredGroup</value>
+  </data>
+  <data name="&gt;&gt;PassBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UserBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="UserBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 26</value>
+  </data>
+  <data name="UserBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;UserBox.Name" xml:space="preserve">
+    <value>UserBox</value>
+  </data>
+  <data name="&gt;&gt;UserBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserBox.Parent" xml:space="preserve">
+    <value>CredGroup</value>
+  </data>
+  <data name="&gt;&gt;UserBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PassLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PassLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 77</value>
+  </data>
+  <data name="PassLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="PassLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="PassLabel.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="&gt;&gt;PassLabel.Name" xml:space="preserve">
+    <value>PassLabel</value>
+  </data>
+  <data name="&gt;&gt;PassLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PassLabel.Parent" xml:space="preserve">
+    <value>CredGroup</value>
+  </data>
+  <data name="&gt;&gt;PassLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="UserLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UserLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 38</value>
+  </data>
+  <data name="UserLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 18</value>
+  </data>
+  <data name="UserLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="UserLabel.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="&gt;&gt;UserLabel.Name" xml:space="preserve">
+    <value>UserLabel</value>
+  </data>
+  <data name="&gt;&gt;UserLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserLabel.Parent" xml:space="preserve">
+    <value>CredGroup</value>
+  </data>
+  <data name="&gt;&gt;UserLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CredGroup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CredGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="CredGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 213</value>
+  </data>
+  <data name="CredGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CredGroup.Name" xml:space="preserve">
+    <value>CredGroup</value>
+  </data>
+  <data name="&gt;&gt;CredGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CredGroup.Parent" xml:space="preserve">
+    <value>LoginPage</value>
+  </data>
+  <data name="&gt;&gt;CredGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LoginPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="LoginPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="LoginPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>676, 317</value>
+  </data>
+  <data name="LoginPage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LoginPage.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;LoginPage.Name" xml:space="preserve">
+    <value>LoginPage</value>
+  </data>
+  <data name="&gt;&gt;LoginPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginPage.Parent" xml:space="preserve">
+    <value>TabPages</value>
+  </data>
+  <data name="&gt;&gt;LoginPage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="VDownloadThreadBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 212</value>
+  </data>
+  <data name="VDownloadThreadBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 26</value>
+  </data>
+  <data name="VDownloadThreadBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;VDownloadThreadBox.Name" xml:space="preserve">
+    <value>VDownloadThreadBox</value>
+  </data>
+  <data name="&gt;&gt;VDownloadThreadBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VDownloadThreadBox.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;VDownloadThreadBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="VDownloadThreadLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VDownloadThreadLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 214</value>
+  </data>
+  <data name="VDownloadThreadLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 18</value>
+  </data>
+  <data name="VDownloadThreadLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="VDownloadThreadLabel.Text" xml:space="preserve">
+    <value>Threads used for downloading:</value>
+  </data>
+  <data name="&gt;&gt;VDownloadThreadLabel.Name" xml:space="preserve">
+    <value>VDownloadThreadLabel</value>
+  </data>
+  <data name="&gt;&gt;VDownloadThreadLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VDownloadThreadLabel.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;VDownloadThreadLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LanguageBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 86</value>
+  </data>
+  <data name="LanguageBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 26</value>
+  </data>
+  <data name="LanguageBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LanguageBox.Name" xml:space="preserve">
+    <value>LanguageBox</value>
+  </data>
+  <data name="&gt;&gt;LanguageBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LanguageBox.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;LanguageBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="VFormatThreadBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 171</value>
+  </data>
+  <data name="VFormatThreadBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 26</value>
+  </data>
+  <data name="VFormatThreadBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;VFormatThreadBox.Name" xml:space="preserve">
+    <value>VFormatThreadBox</value>
+  </data>
+  <data name="&gt;&gt;VFormatThreadBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VFormatThreadBox.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;VFormatThreadBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="VInfoThreadBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 128</value>
+  </data>
+  <data name="VInfoThreadBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 26</value>
+  </data>
+  <data name="VInfoThreadBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;VInfoThreadBox.Name" xml:space="preserve">
+    <value>VInfoThreadBox</value>
+  </data>
+  <data name="&gt;&gt;VInfoThreadBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VInfoThreadBox.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;VInfoThreadBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="VFormatThreadLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VFormatThreadLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 173</value>
+  </data>
+  <data name="VFormatThreadLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 18</value>
+  </data>
+  <data name="VFormatThreadLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="VFormatThreadLabel.Text" xml:space="preserve">
+    <value>Threads used for getting video format list:</value>
+  </data>
+  <data name="&gt;&gt;VFormatThreadLabel.Name" xml:space="preserve">
+    <value>VFormatThreadLabel</value>
+  </data>
+  <data name="&gt;&gt;VFormatThreadLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VFormatThreadLabel.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;VFormatThreadLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="VInfoThreadLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VInfoThreadLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 130</value>
+  </data>
+  <data name="VInfoThreadLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 18</value>
+  </data>
+  <data name="VInfoThreadLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="VInfoThreadLabel.Text" xml:space="preserve">
+    <value>Threads used for getting video information:</value>
+  </data>
+  <data name="&gt;&gt;VInfoThreadLabel.Name" xml:space="preserve">
+    <value>VInfoThreadLabel</value>
+  </data>
+  <data name="&gt;&gt;VInfoThreadLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VInfoThreadLabel.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;VInfoThreadLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LanguageLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LanguageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 89</value>
+  </data>
+  <data name="LanguageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="LanguageLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LanguageLabel.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="&gt;&gt;LanguageLabel.Name" xml:space="preserve">
+    <value>LanguageLabel</value>
+  </data>
+  <data name="&gt;&gt;LanguageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LanguageLabel.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;LanguageLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DefSettingsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 266</value>
+  </data>
+  <data name="DefSettingsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 34</value>
+  </data>
+  <data name="DefSettingsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="DefSettingsButton.Text" xml:space="preserve">
+    <value>Restore default settings</value>
+  </data>
+  <data name="&gt;&gt;DefSettingsButton.Name" xml:space="preserve">
+    <value>DefSettingsButton</value>
+  </data>
+  <data name="&gt;&gt;DefSettingsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DefSettingsButton.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;DefSettingsButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="UpdateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 30</value>
+  </data>
+  <data name="UpdateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 34</value>
+  </data>
+  <data name="UpdateButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="UpdateButton.Text" xml:space="preserve">
+    <value>Update youtube-dl!</value>
+  </data>
+  <data name="&gt;&gt;UpdateButton.Name" xml:space="preserve">
+    <value>UpdateButton</value>
+  </data>
+  <data name="&gt;&gt;UpdateButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpdateButton.Parent" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;UpdateButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="MiscPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="MiscPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="MiscPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>676, 317</value>
+  </data>
+  <data name="MiscPage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="MiscPage.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="&gt;&gt;MiscPage.Name" xml:space="preserve">
+    <value>MiscPage</value>
+  </data>
+  <data name="&gt;&gt;MiscPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiscPage.Parent" xml:space="preserve">
+    <value>TabPages</value>
+  </data>
+  <data name="&gt;&gt;MiscPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TabPages.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TabPages.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="TabPages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TabPages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>684, 348</value>
+  </data>
+  <data name="TabPages.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPages.Name" xml:space="preserve">
+    <value>TabPages</value>
+  </data>
+  <data name="&gt;&gt;TabPages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabPages.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CloseButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CloseButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="CloseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 354</value>
+  </data>
+  <data name="CloseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 35</value>
+  </data>
+  <data name="CloseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CloseButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.Name" xml:space="preserve">
+    <value>CloseButton</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="OutputLocBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="FFmpegLocBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>186, 17</value>
+  </metadata>
+  <metadata name="YoutubedlLocBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>344, 17</value>
+  </metadata>
+  <data name="YoutubedlLocBrowser.Filter" xml:space="preserve">
+    <value>"Alkalmazás (*.exe)|*.exe"</value>
+  </data>
+  <data name="YoutubedlLocBrowser.Title" xml:space="preserve">
+    <value>Youtube-dl.exe location</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>684, 401</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;OutputLocBrowser.Name" xml:space="preserve">
+    <value>OutputLocBrowser</value>
+  </data>
+  <data name="&gt;&gt;OutputLocBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FFmpegLocBrowser.Name" xml:space="preserve">
+    <value>FFmpegLocBrowser</value>
+  </data>
+  <data name="&gt;&gt;FFmpegLocBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YoutubedlLocBrowser.Name" xml:space="preserve">
+    <value>YoutubedlLocBrowser</value>
+  </data>
+  <data name="&gt;&gt;YoutubedlLocBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

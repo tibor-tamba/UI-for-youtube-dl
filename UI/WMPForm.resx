@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ShowHideButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ShowHideButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="ShowHideButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>649, 322</value>
+  </data>
+  <data name="ShowHideButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ShowHideButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ShowHideButton.Text" xml:space="preserve">
+    <value>▼</value>
+  </data>
+  <data name="&gt;&gt;ShowHideButton.Name" xml:space="preserve">
+    <value>ShowHideButton</value>
+  </data>
+  <data name="&gt;&gt;ShowHideButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowHideButton.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ShowHideButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClosingLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClosingLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="ClosingLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 19</value>
+  </data>
+  <data name="ClosingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 20</value>
+  </data>
+  <data name="ClosingLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ClosingLabel.Text" xml:space="preserve">
+    <value>Closing Windows Media Player...</value>
+  </data>
+  <data name="&gt;&gt;ClosingLabel.Name" xml:space="preserve">
+    <value>ClosingLabel</value>
+  </data>
+  <data name="&gt;&gt;ClosingLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClosingLabel.Parent" xml:space="preserve">
+    <value>Closingpanel</value>
+  </data>
+  <data name="&gt;&gt;ClosingLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Closingpanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 111</value>
+  </data>
+  <data name="Closingpanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>387, 56</value>
+  </data>
+  <data name="Closingpanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Closingpanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Closingpanel.Name" xml:space="preserve">
+    <value>Closingpanel</value>
+  </data>
+  <data name="&gt;&gt;Closingpanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Closingpanel.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Closingpanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="axWMP.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="axWMP.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="axWMP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="axWMP.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtwAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAKIAAAAAAwAACAAAAAAABQAAAAAAAADwPwMAAAAAAAUAAAAAAAAAAAAIAAIA
+        AAAAAAMAAQAAAAsA//8DAAAAAAALAP//CAACAAAAAAADADIAAAALAAAACAAKAAAAZgB1AGwAbAAAAAsA
+        AAALAAAACwD//wsA//8LAAAACAACAAAAAAAIAAIAAAAAAAgAAgAAAAAACAACAAAAAAALAAAAwAcAAGEC
+        AAAL
+</value>
+  </data>
+  <data name="axWMP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>684, 350</value>
+  </data>
+  <data name="axWMP.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;axWMP.Name" xml:space="preserve">
+    <value>axWMP</value>
+  </data>
+  <data name="&gt;&gt;axWMP.Type" xml:space="preserve">
+    <value>AxWMPLib.AxWindowsMediaPlayer, AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;axWMP.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;axWMP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer1.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="PlaylistBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PlaylistBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 12pt</value>
+  </data>
+  <data name="PlaylistBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="PlaylistBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PlaylistBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>684, 107</value>
+  </data>
+  <data name="PlaylistBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PlaylistBox.Name" xml:space="preserve">
+    <value>PlaylistBox</value>
+  </data>
+  <data name="&gt;&gt;PlaylistBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlaylistBox.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;PlaylistBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>684, 461</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>350</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>684, 461</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAzMzEIJiYkCwkKCQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5e
+        WRFZWVWSgYJ87KSlnf+1tK7/n6Ca7U9PTKMAAABEAAAAJwAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABqa2VpcnJp/4WFfv+XmJH/srKs/42NhuKYmZTlx8jC/6SlnvACAgJVAAAAMAAAABwAAAAGAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAY2NdomxrZf+Cgnv/jIyF/6+xqf9QTUv8KCImyhINEJm0t7D7wsS9/5eYkOs/QT6YHh0dbQAA
+        AC0AAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAGNiXKJpaWL/bWxm/3Byaf+foJn/bGpn/zgxNv9DPUH/Qjo//6CfnP+4u7P/vb64/6Cg
+        mv/HysP/qKmj8SUlI4AAAAAvAAAAFgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        A//wAAP/+AAH//4AH///8H////////////8=
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>320, 200</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Media Player</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WMPForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

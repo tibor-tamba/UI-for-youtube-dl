@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddButton.ToolTipText" xml:space="preserve">
+    <value>Videó hozzáadása</value>
+  </data>
+  <data name="AddClipButton.ToolTipText" xml:space="preserve">
+    <value>Videó beillesztése a vágólapról</value>
+  </data>
+  <data name="CheckAllButton.ToolTipText" xml:space="preserve">
+    <value>Az összes kijelölése</value>
+  </data>
+  <data name="CheckNoneButton.ToolTipText" xml:space="preserve">
+    <value>A kijelölések megszüntetése</value>
+  </data>
+  <data name="InvCheckButton.ToolTipText" xml:space="preserve">
+    <value>A kijelölések megfordítása</value>
+  </data>
+  <data name="DelButton.ToolTipText" xml:space="preserve">
+    <value>A kijelöltek törlése a listából</value>
+  </data>
+  <data name="DelAllButton.ToolTipText" xml:space="preserve">
+    <value>Az összes törlése a listából</value>
+  </data>
+  <data name="DownloadButton.ToolTipText" xml:space="preserve">
+    <value>A kijelöltek letöltése</value>
+  </data>
+  <data name="StopButton.ToolTipText" xml:space="preserve">
+    <value>A kijelöltek letöltésének leállítása</value>
+  </data>
+  <data name="OpenFolderButton.ToolTipText" xml:space="preserve">
+    <value>A kimeneti mappa megnyitása</value>
+  </data>
+  <data name="PlayButton.ToolTipText" xml:space="preserve">
+    <value>A kijelöltek lejátszása</value>
+  </data>
+  <data name="SettingsButton.ToolTipText" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="ConvertButton.ToolTipText" xml:space="preserve">
+    <value>Átalakítás</value>
+  </data>
+  <data name="FormatButton.ToolTipText" xml:space="preserve">
+    <value>Letöltendő minőség beállítása</value>
+  </data>
+  <data name="AboutButton.ToolTipText" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="TitleHeader.Text" xml:space="preserve">
+    <value>Cím</value>
+  </data>
+  <data name="FormatHeader.Text" xml:space="preserve">
+    <value>Formátum</value>
+  </data>
+  <data name="LengthHeader.Text" xml:space="preserve">
+    <value>Hossz</value>
+  </data>
+  <data name="SizeHeader.Text" xml:space="preserve">
+    <value>Méret</value>
+  </data>
+  <data name="StatusHeader.Text" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="PathHeader.Text" xml:space="preserve">
+    <value>Fájl helye</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 18</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Másolja be a hozzáadandó videók címeit ebbe a mezőbe! (1 URL / sor)</value>
+  </data>
+  <data name="Add_UrlButton.Text" xml:space="preserve">
+    <value>Hozzáad</value>
+  </data>
+  <data name="Add_UrlLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 99</value>
+  </data>
+  <data name="Add_UrlLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 18</value>
+  </data>
+  <data name="Add_UrlLabel.Text" xml:space="preserve">
+    <value>Videó URL-ek:</value>
+  </data>
+  <data name="Fmt_Code_Col.Text" xml:space="preserve">
+    <value>Formátum kód</value>
+  </data>
+  <data name="Fmt_Ext_Col.Text" xml:space="preserve">
+    <value>Kiterjesztés</value>
+  </data>
+  <data name="Fmt_Res_Col.Text" xml:space="preserve">
+    <value>Felbontás</value>
+  </data>
+  <data name="Fmt_Note_Col.Text" xml:space="preserve">
+    <value>Megjegyzés</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Fmt_Note_Col.Width" type="System.Int32, mscorlib">
+    <value>218</value>
+  </data>
+  <data name="AboutPanel_Website2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 216</value>
+  </data>
+  <data name="AboutPanel_Website1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 196</value>
+  </data>
+  <data name="AboutClose.Text" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
+  <data name="AboutPanel_Text2.Text" xml:space="preserve">
+    <value>Ez a program egy videók letöltésére szolgáló, nyílt forráskódú, parancssoros programra épülő felhasználói felület.
+A program számos videót tartalmazó weboldalról képes letölteni. További információkért keresse fel az alábbi weboldalakat.
+1.0
+Tibi
+Freeware</value>
+  </data>
+  <data name="AboutPanel_Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 223</value>
+  </data>
+  <data name="AboutPanel_Text.Text" xml:space="preserve">
+    <value>A programról:
+
+
+
+
+
+Verzió:
+Szerző:
+Licensz:
+Youtube-dl weboldal:
+Támogatott weboldalak:</value>
+  </data>
+  <data name="AboutPanel_Title.Text" xml:space="preserve">
+    <value>Videó letöltő</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Kijelölve:</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="toolStripStatusLabel2.Text" xml:space="preserve">
+    <value>Teljes folyamat:</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlAAvAJQAnQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJQAEwCUAN4AlAD/AJQAcQAAAAAAAAAAAAAAAAAA
+        AAI7OzoRLi8uFAAAAAsAAAAHAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUAAQAlAC4AJQA/wCUAP8AlAD6AJQAQWho
+        Yh17e3WRiouE45yclv+mp6H/oaKd435+eaAUFBNKAAAAKQAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJQAhwCUAP8AlAD/AJQA/wCU
+        AP8CkwLsZnhf9YSEfP+Wl5D/p6ii/5mZk+Wio53luLq0/6KjnOcyMS5dAAAANQAAACAAAAAIAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUAFQAlAD9AJQA/wCU
+        AP8AlAD/AJQA/wCUAP8dkhz/iY6C/6Ojnf9aV1T7Pjg7zzw3Oqavsar5ury1/5ydluVycm6bVldTbwQE
+        BDQAAAAUAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlAArAJQA8QCU
+        AP8AlAD/AJQA/wCUAP8AlAD/AJQA/wCUAP8+mTv/bWxo/0A6Pf9EPUH/SEFF/52dmf+3ubP/uLiz/56e
+        l/+xsqz/paag6VpaVoMAAAA0AAAAGAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJQADwCU
+        ANgAlAD/AJQA/wCUAP8AlAD/AJQA/wCUAP8AlAD/AJQA/wCUAP8lXiP/R0BE/0xESP9LREj/nZ2Z/7i5
+        tP+wsav/m5uU/FxcWsC1t7H+tbew/nNzbY0AAAApAAAAGQAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAACU
+        AAEAlACyAJQA/wCUAP8AlAD/AJQA/wCUAP8AlAD/AJQA/wCUAP8AlAD/AJQA/wKSAv84VDX/SEFF/09I
+        TP+1trH/trey/6mqo/+mp6D/REFB/I2Mive1uLH/sLCq/V5dV1IAAAAUAAAACgAAAAEAAAAAAAAAAAAA
+        AAAAAAAAAJQAfwCUAP8AlAD/AJQA/wCUAP8AlAD/AJQA/wCUAP8AlAD/AJQA/wCUAP8AlAD/AJQA/weM
+        B/9FTUL/fXl5/7a3sf+trqj/p6ih/6mqo/9OTEn/Kicp/z09O/9SUlD/UlFOzxAODyAAAAAEAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAlAAGAJQACACUAAgAlAAIAJQAxQCUAP8AlAD/AJQA/wCUAP8AlAD/aJJj/6it
+        pP8yMjD/R0RE/19bXP+ys67/r7Cq/6uspf+jo53/n5+Y/2RjX/8+Oz3/OTc4/z09O/84Nzf/KCYn5SEf
+        IJQXFRY4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGNiXQEKjQnbAJQA/wCUAP8AlAD/AJQA/wCU
+        AP9rk2f/rK2n/35+fP+CgH7/tLWw/7Kzrf+vsKn/paWf/5ydlv+VlY7/eXl0/2JgYf9cWVv/WVlX/0E/
+        P/8vLS3XKigpszEvMLMxLzBZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXFtWQhWGE/8AlAD/AJQA/wCU
+        AP8AlAD/AJQA/3eec/+4ubT/xcbA/7u8t//Awbz/vLy5/29sbP9gXFz/j46I/4+PiP+BgHv/Z2Vm/3Jv
+        cf91dXP/oaCf/4qJiexIRki7IR8gsyMhI5UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABfXligFoYU/wCU
+        AP8AlAD/AJQA/wCUAP8AlAD/gah9/8TGwf/Cw77/tLWv/729uf9KRUf/SEBE/0Y/Qv9kYF7/kI+I/319
+        ef9QTk//YV5g/3V0cv/FxcT/wsLC96WjpNBycXLBOTc4gAAAAAAAAAAAAAAAAAAAAAAAAAAAb25qA2dl
+        YO4WhxX/AJQA/wCUAP8AlAD/AJQA/wCUAP+NtIr/vr66/62tp/+ysq3/YV1e/z85PP9CPD//QTs+/1VQ
+        UP+UlIz/cXFu/zUzNP9BP0D/b21r/4eHgf+jo6D0sbCx0qqpqtBnZWZHAAAAAAAAAAAAAAAAAAAAAAAA
+        AAB3dnA2cHBp/xyMGv8AlAD/AJQA/wCUAP8AlAD/AJQA/2mPZv+Hh4L/fX11/5CPif83MTT/OTM2/zo0
+        Nv88Njj/V1JR/52clf9bWln/JiMk/yspKv9bWVfnhYV9/6qqo9V1dHUZdnV2aVdUVgcAAAAAAAAAAAAA
+        AAAAAAAAAAAAAIeHgG2CgXr/I5Qh/wCUAP8AlAD/AJQA/wCUAP8AlAD/OWA3/1hXUv9XVlD/ZWRe/y8q
+        K/8yLS7/Mi0u/zUwMf9gXVn/qamj/zk3N/8gHR7/IB0e/zQyMpODgnv/uru1xQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAlZWPl5WVj/9hqF//FG8T/xdxFv85lTj/UK1Q/1GuUP+FnYH/ZmZf/11c
+        Vf9bWVT/JCAg/yklJv8tKCn/MSwt/3BvaP+iop3/IB0e/yIfIP8gHR7/MC4tZ4WFff/Ly8alAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACiop21trax/29tbP9AOTz/QDo9/4uIiP/c3Nn/0NHN/6uq
+        pf+Eg3z/dXRt/2loYf8eGxr/JSEh/ycjI/9TUU3/dXRt/29va/8mIiP/JiIj/yMgIf9bWVRgkI+I/87P
+        y3cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALGxrcG5urX1PDc590Q9Qf9FPkL/j4yM/9vb
+        2P/Ozsv/v7+6/6Ggmv97enP/dHNs/05NSf80MS//VFJN/2VkXf97enL/PDo4/yklJv8pJSX/JyMk3nJx
+        aqCamZL/xMXAOwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy4xKurpcFDPEDmR0BE/0Y/
+        Q/+rqaj/2drX/9DQzv9uamv/SURG/4OCfP96eXH/cG9o/2lnYf9nZV7/Y2Fb/21sZf8oJCT/Kygo/ysn
+        J/9CPz3Tamli/ZublOy1trEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADFxsK3n5+Yr0hB
+        RcdIQUX/VU5S/9bW1P/X2NT/XFlZ/0Q9Qf9FPkL/XlpZ/4mIgf91dGz/cW9p/2loYv93dW7/Uk5M/zgz
+        M/8wKyv/Lioq/11bVv9ubGX/jo2GlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM3N
+        ypirqqXYRD1Bk01GSv+opqb/29zZ/4+PjP9FPkL/Qz1A/zw2Of9XUlL/iYiB/39+dv95eHH/cnBq/4iG
+        gf9XT1D/V05Q/0Y/QP9EQT//YmFa/3V0bP59fHUtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA0dHOZtPU0f+mpqPKsbGv/97e3P/T1NH/VVNR/0E6Pv9IQUX/SEFF/1pVVf+Qj4n/i4qE/3x7
+        dP+dnZb/dm9w/21jZf9kWlv/V09Q/2VjXv9ramP/goJ6sQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADQ0M4d29vZ/t7f3P/d3dv/2drX/8XFwP9KRkb/T0dM/0dARP8/OTz/cG1s/52d
+        l/+Li4T/mZmR/6Ofnv+IfID/fnN1/3FmaP9rZ2T/cXBp/4+Oh/mRkYopAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADa29i13d7b/93e2//Z2tf/x8fD/0RAQP9FPkL/QzxA/0U/
+        Qv+hoJz/mpmT/5yblP+zsK3/npCW/5uNkv+OgYT/fHV0/4GAef+OjYb/t7iyfgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANbX1C7b3Nn529zZ/9ra1//W19T/ZWRh/0U+
+        Qv9cU1j/kY2M/6amoP+lpZ7/paKf/6OWnP+qm6L/oZSZ/5SLjP+SkYv/kI+H/8bGwbzHyMMDAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjY1mHZ2db91dXS/9DR
+        zf/Bwb3/mZiW/6akov+xsaz/qqqk/4iEgv+Kf4T/mIqR/5uOlPGknZ36oqKc/5qak/+8vLbNzMzIEAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANbW
+        00LX19TK0tLP/8nKxf/HyMP/trWw/7KyrP+vrqv/nZiZ/46HidiVjJB+uLezrq2tqP+np6D/qamju7Ky
+        rRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADBwLsct7ayRoyLhEO9vblQ19fU49TV0f/Q0M3/ysrG/7+/u/+4uLP/paWe7pGR
+        iXGQkIkDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADY2NMH09TQVcfHwpa6urWtrq6omI+O
+        hl1+fXUMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/P////hwP//wAAf/8AAD/+AAAP/AAAA/gAAAHwAAAA8AAAAfAAAAD+AA
+        AAfgAAAH4AAAB8AAAAfAAAAHwAAAP8AAAD/AAAA/wAAAP8AAAD/AAAB/wAAAf8AAAP/AAAD/4AAB/+AA
+        Af/wAAP/+AAH//4AD///4D////////////8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Videó letöltés</value>
+  </data>
+</root>

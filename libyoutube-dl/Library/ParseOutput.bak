@@ -1,0 +1,245 @@
+﻿using System.Collections.Generic;
+using System.Xml;
+
+namespace libyoutube_dl
+{
+    class ParseOutput
+    {
+        private const int MaxDataPerRow = 4;
+        private const int MaxDataRowNumber = 31;
+        private int RowIndex;
+        private string Datarow;
+        // Patterns to recognize the message.
+        private readonly string[,] Patterns = new string[MaxDataRowNumber, MaxDataPerRow]
+        { {"[download]"," of","at","ETA" },
+          {"[download]"," of"," in","" },
+          {"[download] Destination:","","","" },
+          {"[ffmpeg] Destination:","","","" },
+          {"Deleting original file","(pass -k to keep)","","" },
+          {"[ffmpeg] Adding thumbnail to","","","" },
+          {"[download] Downloading playlist:","","","" },
+          {"[download] Downloading video","of","","" },
+          {"[download] Got server HTTP error:","Retrying (attempt","of",")..." },
+          {"[download] Resuming download at byte","","","" },
+          {"ERROR:","is not a valid URL.","","" },
+          {"ERROR: Unsupported URL:","","","" },
+          {"ERROR: This video is unavailable","","","" },
+          {"ERROR: Unable to download webpage: <urlopen error [Errno","] getaddrinfo failed>","","" },
+          {"ERROR: Unable to download webpage: <urlopen error unknown url type:","> (caused by URLError('unknown url type:","',))","" },
+          {"ERROR: Unable to download webpage: <urlopen error",">","(caused by URLError(ConnectionRefusedError(",")" },
+          {"ERROR: Youtube said: This channel does not exist.","","","" },
+          {"ERROR: Unable to download webpage: HTTP Error","(caused by HTTPError())","","" },
+          {"ERROR: Could not find XML element video","","","" },
+          {"ERROR: Unable to download XML: <urlopen error [Errno","] getaddrinfo failed>","","" },
+          {"ERROR: unable to download video data: <",">","","" },
+          {"ERROR: fixed output name but more than one file to download","","","" },
+          {"ERROR: unable to open for writing:",": '","","" },
+          {"ERROR: Incomplete YouTube ID",". URL","looks truncated.","" },
+          {"ERROR: ffprobe/avprobe and ffmpeg/avconv not found. Please install one.","","","" },
+          {"ERROR: Signature extraction failed","","","" },
+          {"ERROR:","","","" },
+          {"Updating to version","...","","" },
+          {"youtube-dl is up-to-date (",")","","" },
+          {"[download]","has already been downloaded","","" },
+          {"WARNING:","","","" } };
+
+        //Descriptions of the messages.
+        private string[] MessageInfo = new string[] { };
+        //private readonly string[] MessageInfo = new string[MaxDataRowNumber]
+        //{"Download_in_progress",
+        // "Download_complete",
+        // "Download_destination",
+        // "Ffmpeg_destination",
+        // "Deleting_original",
+        // "Ffmpeg_add_thumbnail",
+        // "Downloading_playlist",
+        // "Downloading_video_playlist",
+        // "Error_downloading_http",
+        // "Resuming_download",
+        // "Error_not_valid_url",
+        // "Error_unsupported_url",
+        // "Error_unavailable",
+        // "Error_urlopen",
+        // "Error_unknown_url_type",
+        // "Error_connection_refused",
+        // "Error_youtube_channel_not_exist",
+        // "Error_getinfo_http",
+        // "Error_xml_elements",
+        // "Error_xml_download",
+        // "Error_download_videodata",
+        // "Error_output",
+        // "Error_unable_to_write",
+        // "Error_incomplete_id",
+        // "Error_ffmpeg_not_found",
+        // "Error_general",
+        // "Error_signature_extraction_failed",
+        // "Yt-dl_updating",
+        // "Yt-dl_updated",
+        // "Download_already",
+        // "Warning_general",
+        //};
+
+        /// <summary>
+        /// Counts data used in the pattern.
+        /// </summary>
+        /// <returns></returns>
+        private int GetDataNumberInPattern(int Index)
+        {
+            int c = 0;
+            for (int i = 0; i < MaxDataPerRow; i++) if (Patterns[Index,i]!="") c++;
+            return c;
+        }
+
+        /// <summary>
+        /// The extracted data from the input row.
+        /// </summary>
+        public string[] MessageData = new string[MaxDataPerRow];
+
+        /// <summary>
+        /// Gets the string between two given string.
+        /// </summary>
+        /// <returns></returns>
+        private string GetStringBetween(string mainstr, string str1, string str2)
+        {
+            int s;
+            int c;
+            s = mainstr.IndexOf(str1) + str1.Length;
+            if (str2 == "*end*")
+                c = mainstr.Length - mainstr.IndexOf(str1) - str1.Length;
+            else
+                c = mainstr.IndexOf(str2) - mainstr.IndexOf(str1) - str1.Length;
+            return mainstr.Substring(s, c);
+        }
+
+        /// <summary>
+        /// Extract data from the row and put into the MessageData array.
+        /// </summary>
+        private void ExtractData(int Index, string Str)
+        {
+            int pn = GetDataNumberInPattern(Index);
+            for (int i = 0; i < pn; i++)
+            {                
+                string s1 = Patterns[Index, i];
+                string s2;
+                if (i < pn - 1)
+                    s2 = Patterns[Index, i + 1];
+                else 
+                    s2 = "*end*";
+                MessageData[i] = GetStringBetween(Str,s1,s2);
+                MessageData[i] = MessageData[i].Trim();
+            }
+        }
+
+        /// <summary>
+        /// Parses the input row.
+        /// </summary>
+        private void ParseRow()
+        {
+            // Determining the index which pattern fit to the input row.
+            for (int i = 0; i < MaxDataRowNumber; i++)
+            {
+                int a = 0;
+                int pn = GetDataNumberInPattern(i);
+                for (int j = 0; j < pn; j++) //MaxDataPerRow
+                    if (Datarow.Contains(Patterns[i, j])) a++;
+                if (a == pn) //MaxDataPerRow
+                {
+                    RowIndex = i;
+                    break;
+                }
+            }
+            //Extracting specific data from the input row.
+            for (int i = 0; i < MaxDataPerRow; i++)
+                MessageData[i] = "";
+            if (RowIndex>-1) ExtractData(RowIndex, Datarow);
+        }
+
+        /// <summary>
+        /// Returns the role about the input row.
+        /// </summary>
+        /// <returns></returns>
+        public string GetMessageInfo
+        {
+            get { if (RowIndex > -1) return MessageInfo[RowIndex]; else return ""; }
+        }
+
+        /// <summary>
+        /// Sets the input data row.
+        /// </summary>
+        public string InputRow
+        {
+            //get { return Datarow; }
+            set 
+            { 
+                Datarow = value;
+                ParseRow();
+            }
+        }
+        public ParseOutput()
+        {
+            Datarow = "";
+            RowIndex = -1;
+            // Loading definitions from patternfile.
+            //for (int i = 0; i < PatternFile.Definitions.Count; i++)
+            //{
+            //    MessageInfo.Add(PatternFile.Definitions[i].Name);
+            //    Patterns.Add(PatternFile.Definitions[i].PatternDef);
+            //}
+        }
+    }
+
+    public static class PatternFile
+    {
+        public static List<PD> Definitions = new List<PD>();
+        public class PD
+        {
+            public string Name { get; set; }
+            public string Message { get; set; }
+            public List<string> PatternDef = new List<string>();
+            public PD() { }
+        }
+
+        private static int pcounter = 0;
+        //private static int defcounter = 0;
+
+        public static void LoadDefinitions(string FileName)
+        {
+            XmlReader doc = XmlReader.Create(FileName);
+            while (doc.Read())
+            {
+                switch (doc.NodeType)
+                {
+                    case XmlNodeType.Element:
+                        switch (doc.Name)
+                        {
+                            case "Pattern":
+                                Definitions.Add(new PD());
+                                break;
+                            case "Name":
+                                doc.Read();
+                                Definitions[pcounter].Name = doc.Value;
+                                break;
+                            case "Message":
+                                doc.Read();
+                                Definitions[pcounter].Message = doc.Value;
+                                break;
+                            case "Def":
+                                doc.Read();
+                                Definitions[pcounter].PatternDef.Add(doc.Value);
+                                //defcounter++;
+                                break;
+                        }
+                        break;
+                    case XmlNodeType.EndElement:
+                        if (doc.Name == "Pattern")
+                        {
+                            //defcounter = 0;
+                            pcounter++;
+                        }
+                        break;
+                }
+            }
+            doc.Close();
+        }
+    }
+}
