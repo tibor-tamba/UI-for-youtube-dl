@@ -2,14 +2,17 @@
 <topic id="6ee9abfc-a606-48f2-bd3e-2235dbf20c35" revisionNumber="1">
 	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<introduction>
-			<para>This is a sample conceptual topic.  You can use this as a starting point for adding more conceptual
-content to your help project.</para>
+			<para>This is the documentation file of Youtube-dl wrapper library.</para>
 		</introduction>
 
 		<section>
 			<title>Getting Started</title>
 			<content>
-				<para>To get started, add a documentation source to the project (a Visual Studio solution, project, or
+        <para>
+          To use this library you need to add it to your project and you can use of it classes.
+          In this help file you can find syntaxes and descriptions to all public classes, properties, fields and methods.
+        </para>
+<!--To get started, add a documentation source to the project (a Visual Studio solution, project, or
 assembly and XML comments file).  See the <legacyBold>Getting Started</legacyBold> topics in the Sandcastle Help
 File Builder's help file for more information.  The following default items are included in this project:</para>
 
@@ -44,7 +47,7 @@ in order to be compiled into the help file.</para>
 
 				<para>See the <legacyBold>Conceptual Content</legacyBold> topics in the Sandcastle Help File Builder's
 help file for more information.  See the <legacyBold> Sandcastle MAML Guide</legacyBold> for details on Microsoft
-Assistance Markup Language (MAML) which is used to create these topics.</para>
+Assistance Markup Language (MAML) which is used to create these topics.</para>-->
 			</content>
 		</section>
 

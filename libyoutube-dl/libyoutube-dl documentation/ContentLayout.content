@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="6ee9abfc-a606-48f2-bd3e-2235dbf20c35" visible="True" isDefault="true" isSelected="true" title="Welcome to the [TODO: Add project name]">
+  <Topic id="6ee9abfc-a606-48f2-bd3e-2235dbf20c35" visible="True" isDefault="true" isSelected="true" title="Welcome to the Youtube-dl wrapper library help file!">
     <HelpKeywords>
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>
