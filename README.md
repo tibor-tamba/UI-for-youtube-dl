@@ -16,4 +16,4 @@ Installation steps:
 7. Go Output page and click the folder icon in the FFmpeg location and find the folder where the FFmpeg was installed in the step 3
 8. Click Close button or make some other settings you want
 9. Restart the program to save the settings
-10.The program is ready to use
+10. The program is ready to use
