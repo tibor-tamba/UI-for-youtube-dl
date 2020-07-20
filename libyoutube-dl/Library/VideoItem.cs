@@ -164,7 +164,7 @@ namespace libyoutube_dl
                         ThumbnailImage = (Bitmap)Image.FromStream(stream);
                         break;
                     case "image/webp":
-                        WebP webpformat = new WebP();
+                        WebPWrapper.WebP webpformat = new WebPWrapper.WebP();
                         MemoryStream memstream = new MemoryStream();
                         stream.CopyTo(memstream);
                         ThumbnailImage = webpformat.Decode(memstream.ToArray());

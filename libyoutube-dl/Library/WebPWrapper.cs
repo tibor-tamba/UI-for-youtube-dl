@@ -29,7 +29,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 //using System.Windows.Forms;
 
-namespace libyoutube_dl //WebPWrapper
+namespace WebPWrapper
 {
     internal sealed class WebP : IDisposable
     {
