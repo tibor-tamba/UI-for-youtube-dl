@@ -50,6 +50,10 @@
     <MaximumGroupParts>2</MaximumGroupParts>
     <Preliminary>False</Preliminary>
     <SdkLinkTarget>Blank</SdkLinkTarget>
+    <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, TypeParameter, AutoDocumentDispose</MissingTags>
+    <NamespaceSummaries>
+      <NamespaceSummaryItem name="WebPWrapper" isDocumented="False">Wrapper for WebP format in C#. (MIT) Jose M. Piñeiro</NamespaceSummaryItem>
+<NamespaceSummaryItem name="libyoutube_dl" isDocumented="True" /></NamespaceSummaries>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
