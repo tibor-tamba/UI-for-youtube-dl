@@ -29,11 +29,6 @@ namespace VideoDownloader
             SetDoubleBuffering(MainListView, true);
             SetDoubleBuffering(FormatListView, true);
             ErrorStrings = new Dictionary<string, string>();
-            //Program.AppSettings.Location_Downloader = Application.StartupPath + "\\youtube-dl.exe";
-            //Program.AppSettings.Location_Output = "d:\\videos\\asd";
-            //Program.AppSettings.Network_Ratelimit_Enabled = true;
-            //Program.AppSettings.Network_RateLimit = 100;
-            //Program.AppSettings.Network_RateLimitUnit = "K";
             VideoItems = new VideoItemCollection(ref Program.AppSettings);
             VideoItems.ItemRemoved += VideoItems_ItemRemoved;
             if (PatternFile.Initialized) ErrorsStringsFromRes();
@@ -105,7 +100,6 @@ namespace VideoDownloader
             List<bool> checkstates = new List<bool>();
             for (int i = 0; i < VideoItems.Count; i++)
             {
-                //checkstates.Add(ListInterface.Items[i].Checked);
                 if (VideoItems.Count <= VList.Items.Count) checkstates.Add(VList.Items[i].Checked);
                 else checkstates.Add(ItemCheckedStateDefault);
             }
@@ -176,7 +170,6 @@ namespace VideoDownloader
 
         private void VideoItems_ItemRemoved(object sender, VideoItemCollection.ItemRemovedEventArgs e)
         {
-            //SynchronizeVideoList(MainListView);
             MainListView.Items.RemoveAt(e.ItemIndex);
             SetFormCaption();
             SetStatusBarText();
@@ -244,19 +237,14 @@ namespace VideoDownloader
                             break;
                         case VideoItem.DownloadingStatusCode.Already:
                             statusText = Languages.Strings.Status_Already;
-                            //sizeText = v.FileSize;
-                            //pathText = v.VideoFilePath;
                             break;
                         case VideoItem.DownloadingStatusCode.Downloading:
                             statusText = $"{Languages.Strings.Status_Progress0} {Convert.ToString(v.Download_Percent)}%\n" +
                                          $"{Languages.Strings.Status_Progress1} {v.Download_Speed}\n" +
                                          $"{Languages.Strings.Status_Progress2} {v.Download_ETA}";
-                            //sizeText = v.FileSize;
-                            //pathText = v.VideoFilePath;
                             break;
                         case VideoItem.DownloadingStatusCode.Converting:
                             statusText = Languages.Strings.Status_Converting;
-                            //pathText = v.VideoFilePath;
                             break;
                         case VideoItem.DownloadingStatusCode.Deletingoriginal:
                             statusText = Languages.Strings.Status_DelOriginal;
@@ -281,53 +269,6 @@ namespace VideoDownloader
                     MainListView.Items[v.ListIndex].SubItems[5].Text = statusText;
                     MainListView.Items[v.ListIndex].SubItems[6].Text = pathText;
                 });
-            //Invoke((MethodInvoker)delegate ()
-            //{
-            //    switch (v.StatusCode)
-            //    {
-            //        case VideoItem.DownloadingStatusCode.Pending:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = Languages.Strings.Status_Pending;
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Starting:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = Languages.Strings.Status_Starting;
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Resuming:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = $"{Languages.Strings.Status_Resume0} {v.ResumedAtByte} {Languages.Strings.Status_Resume1}";
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Already:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = Languages.Strings.Status_Already;
-            //            MainListView.Items[v.ListIndex].SubItems[4].Text = v.FileSize;
-            //            MainListView.Items[v.ListIndex].SubItems[6].Text = v.VideoFilePath;
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Downloading:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = $"{Languages.Strings.Status_Progress0} {Convert.ToString(v.Download_Percent)}%\n{Languages.Strings.Status_Progress1} {v.Download_Speed}\n{Languages.Strings.Status_Progress2} {v.Download_ETA}";
-            //            MainListView.Items[v.ListIndex].SubItems[4].Text = v.FileSize;
-            //            MainListView.Items[v.ListIndex].SubItems[6].Text = v.VideoFilePath;
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Converting:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = Languages.Strings.Status_Converting;
-            //            MainListView.Items[v.ListIndex].SubItems[6].Text = v.VideoFilePath;
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Deletingoriginal:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = Languages.Strings.Status_DelOriginal;
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Addingthumbnail:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = Languages.Strings.Status_AddPicture;
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Aborting:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = Languages.Strings.Status_Aborting;
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Aborted:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = Languages.Strings.Status_Aborted;
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Error:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = $"{Languages.Strings.Status_Error} {GetErrorString(v.ErrorID)}";
-            //            break;
-            //        case VideoItem.DownloadingStatusCode.Finished:
-            //            MainListView.Items[v.ListIndex].SubItems[5].Text = Languages.Strings.Status_Finished;
-            //            break;
-            //    }
-            //});
         }
 
         private string GetErrorString(string errorid)
@@ -380,13 +321,7 @@ namespace VideoDownloader
             WMP = new WMPForm(new List<string>(), new List<string>());
             ConvertButton.Checked = Program.AppSettings.Format_ConvertEnabled;
             //Begin testing.
-            //AddVideoItem("https://www.youtube.com/watch?v=jN2Hiyc0EM0");
-            //AddVideoItem("https://www.youtube.com/watch?v=BiuWGlqq7tw");
-            //AddVideoItem("https://www.youtube.com/watch?v=cAwrAI6O5lI");
-            //AddVideoItem("https://www.youtube.com/watch?v=p-T3A1t2wTQ");
-            //AddVideoItem("https://vimeo.com/342491908");
-            //AddVideoItem("https://indavideo.hu/video/Online_filmek");
-            //AddVideoItem("https://videa.hu/videok/film-animacio/a-karacsonyi-lovag-karacsony-waZfyrlDtiQ086Gu");
+            //AddVideoItem("https://www.youtube.com/watch?v=");
             // End testing.
         }
         // Sets the positions of the program's panels every time the window is resized.
@@ -575,7 +510,6 @@ namespace VideoDownloader
                 ConvertButton.ToolTipText = Languages.Strings.ConvertButton_Tooltiptext;
                 Program.AppSettings.Format_ConvertEnabled = false;
             }
-            //if (GetDownloadInProgressCount > 0) MessageBox.Show(StringObjects.Warnings.WarnConvertWhenProgress, StringObjects.Warnings.WarnGeneralTitle, MessageBoxButtons.OK, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
         }
 
         private void FormatButton_CheckStateChanged(object sender, EventArgs e)

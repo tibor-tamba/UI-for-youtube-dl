@@ -152,9 +152,6 @@ namespace libyoutube_dl
         {
             try
             {
-                //WebRequest req = WebRequest.Create(url);
-                //Stream stream = req.GetResponse().GetResponseStream();
-                //ThumbnailImage = Image.FromStream(stream);
                 WebRequest req = WebRequest.Create(url);
                 Stream stream = req.GetResponse().GetResponseStream();
                 string contenttype = req.GetResponse().ContentType;

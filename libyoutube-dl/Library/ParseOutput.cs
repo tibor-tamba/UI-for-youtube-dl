@@ -15,9 +15,6 @@ namespace libyoutube_dl
         //Titles of the messages.
         private List<string> MessageID = new List<string>();
 
-        //private List<string> ErrorMessageGI = new List<string>();
-        //private List<string> ErrorMessageGV = new List<string>();
-
         /// <summary>
         /// The extracted data from the input row.
         /// </summary>
@@ -36,7 +33,6 @@ namespace libyoutube_dl
                 c = mainstr.Length - mainstr.IndexOf(str1) - str1.Length;
             else
                 c = mainstr.IndexOf(str2, mainstr.IndexOf(str1) + str1.Length) - mainstr.IndexOf(str1) - str1.Length;
-                //c = mainstr.IndexOf(str2) - mainstr.IndexOf(str1) - str1.Length;
             return mainstr.Substring(s, c);
         }
 
@@ -45,7 +41,7 @@ namespace libyoutube_dl
         /// </summary>
         private void ExtractData(int Index, string Str)
         {
-            int pn = Patterns[Index].Count;// GetDataNumberInPattern(Index);
+            int pn = Patterns[Index].Count;
             for (int i = 0; i < pn; i++)
             {                
                 string s1 = Patterns[Index][i];
@@ -55,7 +51,6 @@ namespace libyoutube_dl
                 else 
                     s2 = "*end*";
                 MessageValues.Add(GetStringBetween(Str, s1, s2));
-                //MessageData[i] = GetStringBetween(Str, s1, s2);
                 MessageValues[i] = MessageValues[i].Trim();
             }
         }
@@ -65,46 +60,26 @@ namespace libyoutube_dl
         {
             // Determining the index which pattern fit to the input row.
             for (int i = 0; i < Patterns.Count; i++)
-            //for (int i = 0; i < MaxDataRowNumber; i++)
             {
                 int a = 0;
-                int pn = Patterns[i].Count;// GetDataNumberInPattern(i);
-                for (int j = 0; j < pn; j++) //MaxDataPerRow
+                int pn = Patterns[i].Count;
+                for (int j = 0; j < pn; j++)
                     if (Datarow.Contains(Patterns[i][j])) a++;
-                if (a == pn) //MaxDataPerRow
+                if (a == pn)
                 {
                     RowIndex = i;
                     break;
                 }
             }
             //Extracting specific data from the input row.
-               //for (int i = 0; i < MaxDataPerRow; i++)
-               //    MessageData[i] = "";
             if (RowIndex>-1) ExtractData(RowIndex, Datarow);
-            //if (RowIndex > -1)
-            //    switch (MessageTitle[RowIndex])
-            //    {
-            //        case "Extract_format":
-            //            ExtractFormat(RowIndex, Datarow);
-            //            break;
-            //        default:
-            //            ExtractData(RowIndex, Datarow);
-            //            break;
-            //    }
         }
-
-        //private void ExtractFormat(int index, string str)
-        //{
-            
-        //}
 
         /// <summary>
         /// Returns the generated ID from the input text.
         /// </summary>
         /// <returns></returns>
         public string GetMessageID { get { if (RowIndex > -1) return MessageID[RowIndex]; else return ""; } }
-        //public string GetErrorMessageGI { get { if (RowIndex > -1) return ErrorMessageGI[RowIndex]; else return ""; } }
-        //public string GetErrorMessageGV { get { if (RowIndex > -1) return ErrorMessageGV[RowIndex]; else return ""; } }
 
         /// <summary>
         /// Sets the input data row.
@@ -119,8 +94,6 @@ namespace libyoutube_dl
             {
                 MessageID.Add(i.Name);
                 Patterns.Add(i.PatternDef);
-                //ErrorMessageGI.Add(i.MessageGI);
-                //ErrorMessageGV.Add(i.MessageGV);
             }
         }
     }
@@ -137,11 +110,8 @@ namespace libyoutube_dl
         {
             /// <summary>The identifier of the pattern.</summary>
             public string Name { get; set; }
-            //public string MessageGI { get; set; }
-            //public string MessageGV { get; set; }
             /// <summary>The pattern strings.</summary>
             public List<string> PatternDef = new List<string>();
-            //public PD() { }
         }
         /// <summary>Determines whether the definition file loaded.</summary>
         public static bool Initialized { get; private set; } = false;
@@ -164,13 +134,11 @@ namespace libyoutube_dl
                             {
                                 case "Pattern": Definitions.Add(new PD());break;
                                 case "Name": doc.Read(); Definitions[pcounter].Name = doc.Value; break;
-                                //case "MessageGI": doc.Read(); Definitions[pcounter].MessageGI = doc.Value; break;
-                                //case "MessageGV": doc.Read(); Definitions[pcounter].MessageGV = doc.Value; break;
-                                case "Def": doc.Read(); Definitions[pcounter].PatternDef.Add(doc.Value);/*defcounter++;*/ break;
+                                case "Def": doc.Read(); Definitions[pcounter].PatternDef.Add(doc.Value); break;
                             }
                             break;
                         case XmlNodeType.EndElement:
-                            if (doc.Name == "Pattern") {/*defcounter = 0;*/ pcounter++; }
+                            if (doc.Name == "Pattern") {pcounter++; }
                             break;
                     }
                 }

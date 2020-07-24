@@ -220,7 +220,6 @@ namespace libyoutube_dl
                 if (Items[index].StartFormatQuery()) return true;
                 else
                 {
-                    //SuspendFormatQueryScheduler();
                     FormatScheduler.CancelAsync();
                     return false;
                 }

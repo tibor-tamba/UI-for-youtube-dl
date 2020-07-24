@@ -12,7 +12,6 @@ namespace libyoutube_dl
         public int ListIndex;
         private bool IsReceivingFormatInfo = false;
         int[] FieldOffsets = new int[4];
-        //public string URLText;
         private GetFormatEventArgs GFargs;
         public event GetFormatEventHandler GetFormat;
         public event FinishedEventHandler GetFormatFinished;
@@ -25,7 +24,6 @@ namespace libyoutube_dl
             Exited += GetFormatProcess_Exited;
             GFargs = new GetFormatEventArgs();
             GFargs.FormatProperties = new List<FormatProperty>();
-            //URLText = VideoUrl;
             ListIndex = 0;
             EnableRaisingEvents = true;
             StartInfo.UseShellExecute = false;
@@ -33,7 +31,6 @@ namespace libyoutube_dl
             StartInfo.RedirectStandardOutput = true;
             StartInfo.RedirectStandardError = true;
             StartInfo.FileName = ProgramName;
-            //StartInfo.Arguments = $"{Parameters} {VideoUrl}";
             StartInfo.Arguments = Parameters;
         }
 

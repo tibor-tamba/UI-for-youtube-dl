@@ -10,7 +10,6 @@ namespace libyoutube_dl
     {
         private List<string> OutputTexts;
         public string ErrorStatus;
-        //public string URLText;
         private GetInfoEventArgs GIargs;
         public event GetInfoEventHandler GetInfo;
         public event FinishedEventHandler GetInfoFinished;
@@ -24,14 +23,12 @@ namespace libyoutube_dl
             Exited += GetInfoProcess_Exited;
             GIargs = new GetInfoEventArgs();
             ErrorStatus = "";
-            //URLText = VideoUrl;
             EnableRaisingEvents = true;
             StartInfo.UseShellExecute = false;
             StartInfo.CreateNoWindow = true;
             StartInfo.RedirectStandardOutput = true;
             StartInfo.RedirectStandardError = true;
             StartInfo.FileName = ProgramName;
-            //StartInfo.Arguments = $"{Parameters} {VideoUrl}";
             StartInfo.Arguments = Parameters;
         }
 
@@ -59,7 +56,6 @@ namespace libyoutube_dl
             if (OutputTexts.Count > 1) GIargs.ThumbnailUrl = OutputTexts[1]; else GIargs.ThumbnailUrl = "Nincs adat";
             if (OutputTexts.Count > 2) GIargs.Length = OutputTexts[2]; else GIargs.Length = "Nincs adat";
             if (OutputTexts.Count > 3) GIargs.Format = OutputTexts[3]; else GIargs.Format = "Nincs adat";
-            //GIargs.VideoURL = URLText;
             OnGetInfo(GIargs);
             OnFinished(e);
         }
@@ -89,7 +85,6 @@ namespace libyoutube_dl
         public class GetInfoEventArgs : EventArgs
         {
             public string Title { get; set; }
-            //public string VideoURL { get; set; }
             public string ThumbnailUrl { get; set; }
             public string Length { get; set; }
             public string Format { get; set; }

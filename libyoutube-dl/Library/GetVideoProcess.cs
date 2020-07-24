@@ -10,7 +10,6 @@ namespace libyoutube_dl
     {
         public bool IsCancelled = false;
         public string ErrorStatus;
-        //public string URLText;
         private GetVideoEventArgs GVargs;
         public event GetVideoEventHandler GetVideo;
         public event FinishedEventHandler DownloadFinished;
@@ -24,14 +23,12 @@ namespace libyoutube_dl
             GVargs = new GetVideoEventArgs();
             GVargs.DLMessageValues = new List<string>();
             ErrorStatus = "";
-            //URLText = VideoUrl;
             EnableRaisingEvents = true;
             StartInfo.UseShellExecute = false;
             StartInfo.CreateNoWindow = true;
             StartInfo.RedirectStandardOutput = true;
             StartInfo.RedirectStandardError = true;
             StartInfo.FileName = ProgramName;
-            //StartInfo.Arguments = $"{Parameters} {VideoUrl}";
             StartInfo.Arguments = Parameters;
         }
 
